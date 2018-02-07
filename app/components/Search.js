@@ -12,7 +12,7 @@ class Search extends React.Component {
 			origin: 'dr5reg',
 			arrival: 'Montreal, Quebec, Canada',
 			destination: 'f25dvk',
-			outbound_date: '2017-07-29',
+			outbound_date: '2018-07-29',
 			adult: 1,
 			selectedLanguage: 'en'
 		};
@@ -38,8 +38,8 @@ class Search extends React.Component {
 
 		return (
 			<section className='search'>
-				<SelectLanguage 
-					selectedLanguage={selectedLanguage} 
+				<SelectLanguage
+					selectedLanguage={selectedLanguage}
 					onSelect={this.updateLanguage} />
 				<div className='search-container'>
 					<div className='search-item'>
